@@ -1,0 +1,10 @@
+name: NameChange
+main: io.github.cowang4.namechangeplugin.NameChangePlugin
+version: 0.1.0
+
+commands:
+  namechange:
+    description: Changes a player's visible in-game name
+    usage: /namechange <name> [player]
+    permission: <namechange>.namechange
+    permission-message: You don't have <permission>
